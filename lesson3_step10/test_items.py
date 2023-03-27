@@ -12,3 +12,4 @@ def test_item_add_to_basket(browser):
     basket = browser.find_element(By.XPATH, "//button[@class='btn btn-lg btn-primary btn-add-to-basket']")
     assert basket.text, "Añadir al carrito"
     print(basket.text)
+    # тестим по команде pytest --language=es test_items.py 
